@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's the Weather Today?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>What's the Weather Today?</h1>
+      <div class="weather-card">
+        <input type="text" id="city" placeholder="Enter city" />
+        <button onclick="getWeather()">Get Weather</button>
+        <div id="weather-info" class="hidden">
+          <div id="weather-icon" class="weather-icon"></div>
+          <h2 id="location"></h2>
+          <p id="temperature"></p>
+          <p id="description"></p>
+          <p id="humidity"></p>
+          <p id="wind"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
